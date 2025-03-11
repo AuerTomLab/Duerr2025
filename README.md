@@ -1,5 +1,3 @@
-<img src="0_General/Logo_Github_Dsec_Dataset_Overview_ALPNs_n133_anterior.png" align="right" height="200" /> 
-
 # Dürr et al. 2025
 
 ## Authors
@@ -12,6 +10,7 @@ Benedikt R. Dürr<sup>1,2</sup>, Enrico Bertolini<sup>1,3#</sup> , Suguru Takagi
     \# equal contribution 
     \* Corresponding author: Thomas O. Auer E-mail: thomas.auer@unifr.ch
 
+<img src="0_General/Logo_Github_Dsec_Dataset_Overview_ALPNs_n133_anterior.png" align="right" height="200" /> 
 
 ## Data
 - Here we store the neuron datasets and files important for the analysis (see below).
