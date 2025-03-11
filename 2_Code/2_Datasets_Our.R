@@ -23,6 +23,9 @@ source("2_Code/1_Libraries.R")
 # We mirrored "R"-neurons (left in the image), using the IS2 template space, to the right hemisphere, combined them with the "L"-neurons and exported them; see "Mirror & Bridging Registration"
 # (3.3_Dsec_ALPNs_DsecF_all, is not yet left-right corrected!)
 
+# !!! initially we used "RH" for right and "LH" for left hemisphere, LH later on turned out to be the short term for "Lateral Horn", We did not change it in this script as it is linked with the raw data and renaming everything would have been messy !!!
+# Therefore we renamed following files so that R & L stands for left and right hemisphere
+
 ## Abbreviations
 # [loc]   - location
 # [nl]    - neuron list
@@ -31,8 +34,8 @@ source("2_Code/1_Libraries.R")
 # [reg]   - registered to DsecF/DsecI in D.sechellia; registered to IS2 in D.melanogaster
 # [Ns]    - Neurons
 # [ALPNs] - Antennal Lobe Projection Neurons
-# [R]     - Right Hemisphere
-# [L]     - Left Hemisphere
+# [R]     - Right Hemisphere (old name "RH")
+# [L]     - Left Hemisphere (old name "LH")
 
 
 
@@ -474,35 +477,35 @@ VFB_Dmel_ALPNs_conf_renamed_swc # n=806
 
 ## Dmel ALPN all ----
 #### Mirror & Bridging Registration ----
-nl_Dmel_RH_IS2 <- read.neurons("./1_Data/5_Dataset_our/03_ALPNs_Dmel_IS2_RH", pattern = "*.swc", neuronnames = NULL)
-nl_Dmel_LH_IS2 <- read.neurons("./1_Data/5_Dataset_our/03_ALPNs_Dmel_IS2_LH", pattern = "*.swc", neuronnames = NULL)
+nl_Dmel_R_IS2 <- read.neurons("./1_Data/5_Dataset_our/03_ALPNs_Dmel_IS2_R", pattern = "*.swc", neuronnames = NULL)
+nl_Dmel_L_IS2 <- read.neurons("./1_Data/5_Dataset_our/03_ALPNs_Dmel_IS2_L", pattern = "*.swc", neuronnames = NULL)
 
 ### Check
-nl_Dmel_PNs_IS2 <- c(nl_Dmel_RH_IS2, nl_Dmel_LH_IS2)
+nl_Dmel_PNs_IS2 <- c(nl_Dmel_R_IS2, nl_Dmel_L_IS2)
 clear3d()
-plot3d(nl_Dmel_all_IS2_RH, 
+plot3d(nl_Dmel_all_IS2_R,
        lwd = 4,
        soma= 4)
 plot3d(IS2, aplha = 0.1)
 
-### Mirroring LH to RH in IS2
-#nl_Dmel_LH_IS2_mir <- mirror_brain(nl_Dmel_LH_IS2, IS2, .progress='text')
-#nl_Dmel_LH_DsecI_mir <- xform_brain(nl_Dmel_LH_IS2_mir, sample = IS2, reference = DsecI)
+### Mirroring L to R in IS2
+#nl_Dmel_L_IS2_mir <- mirror_brain(nl_Dmel_L_IS2, IS2, .progress='text')
+#nl_Dmel_L_DsecI_mir <- xform_brain(nl_Dmel_L_IS2_mir, sample = IS2, reference = DsecI)
 
-### Combine RH & LH nls
-#nl_Dmel_all_IS2_RH <- c(nl_Dmel_RH_IS2, nl_Dmel_LH_IS2_mir, recursive = FALSE)
-#nl_Dmel_all_DsecI_RH <- c(nl_Dmel_RH_DsecI, nl_Dmel_LH_DsecI_mir, recursive = FALSE)
+### Combine R & L nls
+#nl_Dmel_all_IS2_R <- c(nl_Dmel_R_IS2, nl_Dmel_L_IS2_mir, recursive = FALSE)
+#nl_Dmel_all_DsecI_R <- c(nl_Dmel_R_DsecI, nl_Dmel_L_DsecI_mir, recursive = FALSE)
 
-### Mirroring RH to LH in IS2
-nl_Dmel_RH_IS2_mir <- mirror_brain(nl_Dmel_RH_IS2, IS2, .progress='text')
-#nl_Dmel_RH_DsecI_mir <- xform_brain(nl_Dmel_RH_IS2_mir, sample = IS2, reference = DsecI)
+### Mirroring R to L in IS2
+nl_Dmel_RH_IS2_mir <- mirror_brain(nl_Dmel_R_IS2, IS2, .progress='text')
+#nl_Dmel_RH_DsecI_mir <- xform_brain(nl_Dmel_R_IS2_mir, sample = IS2, reference = DsecI)
 
-### Combine RH & LH nls
-nl_Dmel_all_IS2_RH <- c(nl_Dmel_LH_IS2, nl_Dmel_RH_IS2_mir, recursive = FALSE)
-#nl_Dmel_all_DsecI_LH <- c(nl_Dmel_LH_DsecI, nl_Dmel_RH_DsecI_mir, recursive = FALSE)
+### Combine R & L nls
+nl_Dmel_all_IS2_R <- c(nl_Dmel_L_IS2, nl_Dmel_R_IS2_mir, recursive = FALSE)
+#nl_Dmel_all_DsecI_L <- c(nl_Dmel_L_DsecI, nl_Dmel_R_DsecI_mir, recursive = FALSE)
 
 ### Export
-write.neurons(nl_Dmel_all_IS2_RH, dir = loc_Dmel_ALPNs_IS2_allRH, format="swc")
+write.neurons(nl_Dmel_all_IS2_R, dir = loc_Dmel_ALPNs_IS2_allR, format="swc")
 
 
 

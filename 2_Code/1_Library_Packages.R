@@ -45,19 +45,13 @@ library(alphashape3d)
 library(readobj)
 
 
-# Visualisation Packages----
+# Visualisation Packages ----
 library(webshot2)
 library(RColorBrewer)
 
 library(grid)
 library(gridExtra)
 library(magick)
-
-# library(manipulateWidget)
-# library(png)
-
-
-# add pdf_tools 
 
 
 

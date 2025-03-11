@@ -4,7 +4,7 @@
 
 #------------------------------  Description  ---------------------------------#
 # This file initiates the project by loading all necessary scripts.
-# The scripts set up the Project environment, load data sets, import/export locations and visualization parameters.
+# The scripts set up the project environment, load datasets, import/export locations and visualization parameters.
 # This file should be executed first.
 #------------------------------------------------------------------------------#
 

@@ -6,6 +6,10 @@
 .DS_Store
 
 
+
+/1_Data/2_Neuron_Tracing
+!/1_Data/2_Neuron_Tracing/Tracing_Files.rtf
+
 /1_Data/3_Registration/01_Reference_Brains
 /1_Data/3_Registration/02_Bridging_Registrations
 !/1_Data/3_Registration/02_Bridging_Registrations/*.png
