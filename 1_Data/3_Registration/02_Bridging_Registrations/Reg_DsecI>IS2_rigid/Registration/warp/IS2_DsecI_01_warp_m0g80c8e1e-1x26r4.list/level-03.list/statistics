@@ -1,0 +1,12 @@
+! TYPEDSTREAM 2.4
+
+time_level 118.3100000000
+time_total 141.7100000000
+walltime_level 12.0000000000
+walltime_total 14.0000000000
+thread_time_level 118.3100000000
+thread_time_total 141.7100000000
+number_of_threads 12
+number_of_cpus 12
+host "julia-pc.cos.uni-heidelberg.de"
+system "Darwin"
