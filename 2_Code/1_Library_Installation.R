@@ -12,7 +12,7 @@
 # We can restore the used project package library from the renv lockfile
 
 # renv::init() #This command was used for setting up the project
-# renv::snapshot() #Record new/updated packages in the lockfile
+renv::snapshot() #Record new/updated packages in the lockfile
 # renv::status()
 # renv::restore() #reinstall specific packages used in this project
 # renv::deactivate(clean = TRUE)

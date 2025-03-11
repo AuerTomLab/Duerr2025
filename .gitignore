@@ -5,6 +5,7 @@
 .Rprofile
 .DS_Store
 
+
 /1_Data/3_Registration/01_Reference_Brains
 /1_Data/3_Registration/02_Bridging_Registrations
 !/1_Data/3_Registration/02_Bridging_Registrations/*.png
@@ -33,9 +34,12 @@
 !/1_Data/3_Registration/02_Bridging_Registrations/Reg_DsecI>IS2_rigid/Registration
 !/1_Data/3_Registration/02_Bridging_Registrations/Reg_DsecI>IS2_rigid/*.png
 
+/1_Data/4_Brain_Area_Annotations/01_Dsec_DsecF/DsecF_highres.obj
+/1_Data/4_Brain_Area_Annotations/02_Dsec_DsecI/DsecI_highres.obj
+/1_Data/4_Brain_Area_Annotations/03_Dmel_IS2/IS2_highres.obj
 
-/1_Data/7_VM5d_Measurements/1_Dsec_VM5d/Data_raw
-/1_Data/7_VM5d_Measurements/2_Dmel_VM5d/Data_raw
+/1_Data/7_VM5d_Measurements_Tom/1_Dsec_VM5d/Data_raw/
+/1_Data/7_VM5d_Measurements_Tom/2_Dmel_VM5d/Data_raw/
 
 /1_Data/9_Jacobian
 !/1_Data/9_Jacobian/commands
