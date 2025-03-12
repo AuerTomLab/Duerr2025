@@ -43,30 +43,30 @@ Contact us any time if you need help or want to give feedback on improving the c
 ### 1 - Library Visualisation
 - Loads visualisation parameters used for the figures.
 ### 2 - Datasets - Our
-- Here we query, sort and prepare datasets relevant for our analysis.
+- Here, we query, sort and prepare datasets relevant for our analysis.
 
 ### 2 - Datasets - VFB
-- Here we query, sort and prepare datasets relevant for our analysis.
+- Here, we query, sort and prepare datasets relevant for our analysis.
 
 ### 3 - Glomeruli
-- Here we prepare glomeruli annotations from AMIRA and MIP.
+- Here, we prepare glomeruli annotations from AMIRA and MIP.
 - We also demonstrated an open-source workflow to use Glomeruli Annotations created with the [Microscopy Image Browser](http://mib.helsinki.fi) instead of AMIRA.
 
 ### 4 - ALPN Annotation
-- Here we manually annotated neurons after using NBLAST.
+- Here, we manually annotated neurons after using NBLAST.
 
 ### 5 - ALPN dendrite quantification
 
 ### Figures
-- Here we combined all necessary code to reproduce R-based figure panels shown in the manuscript of Dürr et al. 2025
-- When reproducing a figure first source 0_Project_Initialization file as it loads necessary libraries and files
-- All figures were successfully tested before the release using a full reinstallation of the software on MacOS. Still, there can be unforeseen problems when restarting the project. If this happens we are happy to help you when you encounter problem. We noticed that the rgl package sometimes generates problems with exporting 3D scenes. This can sometimes be resolved by updating or reinstalling the package. Otherwise feel free to contact us directly.
+- Here we combined all necessary code to reproduce R-based figure panels shown in Dürr et al. 2025
+- When reproducing a figure, first source 0_Project_Initialization file as it loads necessary libraries and files
+- All figures were successfully tested before the release using a full re-installation of the software on MacOS. Still, there can be unforeseen problems when restarting the project. If this happens, we are happy to help you when you encounter problems. We noticed that the rgl package sometimes bugs when exporting 3D scenes. This can be resolved (most of the times) by updating or re-installing the package. 
 
 ## Figures
 - Folders used by the figure code to export the final figures.
 
 ## Tables
-- Supplementary Table 3 & 4.
+- Supplementary Tables 3 & 4.
 
 ## Videos
 - Jacobian map video; stored on Zenodo.
