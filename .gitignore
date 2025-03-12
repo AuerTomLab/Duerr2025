@@ -33,9 +33,9 @@
 !1_Data/3_Registration/02_Bridging_Registrations/Reg_DsecF>IS2/*.png
 
 1_Data/3_Registration/02_Bridging_Registrations/Reg_DsecF>T1/*
-!1_Data/3_Registration/02_Bridging_Registrations/Reg_DsecF>T1/commands
-!1_Data/3_Registration/02_Bridging_Registrations/Reg_DsecF>T1/Registration
-!1_Data/3_Registration/02_Bridging_Registrations/Reg_DsecF>T1/*.png
+#!1_Data/3_Registration/02_Bridging_Registrations/Reg_DsecF>T1/commands
+#!1_Data/3_Registration/02_Bridging_Registrations/Reg_DsecF>T1/Registration
+#!1_Data/3_Registration/02_Bridging_Registrations/Reg_DsecF>T1/*.png
 
 1_Data/3_Registration/02_Bridging_Registrations/Reg_DsecI>DsecF/*
 !1_Data/3_Registration/02_Bridging_Registrations/Reg_DsecI>DsecF/commands
@@ -51,6 +51,13 @@
 !1_Data/3_Registration/02_Bridging_Registrations/Reg_DsecI>IS2_rigid/commands
 !1_Data/3_Registration/02_Bridging_Registrations/Reg_DsecI>IS2_rigid/Registration
 !1_Data/3_Registration/02_Bridging_Registrations/Reg_DsecI>IS2_rigid/*.png
+
+
+1_Data/3_Registration/03_CMTK_Registration_Dmel/*
+!1_Data/3_Registration/03_CMTK_Registration_Dmel/1_HQ_Registrations/
+
+1_Data/3_Registration/03_CMTK_Registration_Dsec/*
+!1_Data/3_Registration/03_CMTK_Registration_Dmel/1_HQ_Registrations/
 
 1_Data/4_Brain_Area_Annotations/01_Dsec_DsecF/DsecF_highres.obj
 1_Data/4_Brain_Area_Annotations/02_Dsec_DsecI/DsecI_highres.obj
